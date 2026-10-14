@@ -1,72 +1,88 @@
-# E-Commerce Customer Behavior Analysis
+# E-Commerce Customer Analysis
 
-## Project Overview
+## 📌 Project Overview
+This project analyzes e-commerce sales and customer purchasing behavior to understand sales performance, product demand, customer ratings, and revenue trends. It uses data analysis and visualization techniques to transform raw data into meaningful business insights.
 
-This project focuses on analyzing e-commerce customer purchasing behavior, revenue trends, product performance,
-and payment preferences using Python, Pandas, SQL, and Matplotlib.
+## 🎯 Project Objectives
+- Analyze sales and order performance.
+- Identify top-performing product categories and products.
+- Compare revenue across different cities.
+- Analyze monthly revenue trends.
+- Explore customer purchasing behavior and ratings.
+- Present key business insights through an interactive dashboard.
 
-The objective is to extract meaningful insights from customer transaction data and understand overall business performance.
+## 🛠️ Tools & Technologies
+- **Power BI** – Interactive dashboard development and data visualization
+- **Python** – Data analysis and visualization
+- **Pandas** – Data cleaning and manipulation
+- **Matplotlib** – Data visualization
+- **SQL** – Data querying and analysis
+- **Excel** – Data inspection and basic analysis
 
-## Tools & Technologies
-- Python
-- Pandas
-- SQL
-- Matplotlib
-- Exploratory Data Analysis (EDA)
-- Data Visualization
+## 📊 Power BI Dashboard
+The interactive dashboard provides an overview of e-commerce sales performance through the following visualizations:
 
-## Project Structure
+- Completed Orders
+- Cancelled Orders
+- Total Revenue
+- Average Rating
+- Revenue by City
+- Monthly Revenue Trend
+- Revenue by Product Category
+- Top 10 Best-Selling Products
 
-- `data/` – E-Commerce dataset
-- `python/` – Python analysis code
-- `sql/` – SQL queries
-- `visualizations/` – Python visualization code
-- `analysis_outputs/` – Visualization results and charts
+### Dashboard Preview
+![E-Commerce Sales Dashboard](screenshots/ecommerce_dashboard.png)
 
----
+## 🔍 Project Workflow
+1. Collected and explored the e-commerce dataset.
+2. Inspected the data to understand its structure and columns.
+3. Analyzed sales, orders, product categories, and customer ratings.
+4. Used Python and Pandas for data analysis and visualization.
+5. Wrote SQL queries to analyze sales and customer-related information.
+6. Created measures and calculated revenue in Power BI.
+7. Designed an interactive dashboard to present key performance indicators and business trends.
 
-## Data Visualization Results
+## 📈 Key Business Questions
+- How much revenue was generated from completed orders?
+- How many orders were completed or cancelled?
+- Which cities generated the highest revenue?
+- Which product categories performed best?
+- How did revenue change over time?
+- Which products had the highest sales quantities?
+- What was the average customer rating?
 
-### 1. Revenue by Product Category
+## 📁 Project Structure
+```text
+E-Commerce-Customer-Analysis/
+│
+├── analysis_outputs/
+├── data/
+│   └── ecommerce.csv
+├── python/
+│   └── ecommerce_analysis.py
+├── sql/
+│   └── ecommerce_sales.sql
+├── visualizations/
+│   └── visualization.py
+├── screenshots/
+│   └── ecommerce_dashboard.png
+├── Ecommerce_Customer_Analysis_Dashboard.pbix
+└── README.md
+```
 
-![Revenue by Product Category](analysis_outputs/category_revenue.png)
+## 💡 Key Learnings
+- Data cleaning and exploratory data analysis
+- SQL querying and data aggregation
+- Python-based data analysis and visualization
+- DAX measures and calculated columns in Power BI
+- Dashboard design and KPI reporting
+- Communicating business insights using data
 
-**Insight:** Electronics generated the highest revenue (approximately 64K), followed by Clothing, Home, and Beauty.
+## ✅ Outcome
+This project demonstrates practical skills in Python, SQL, data visualization, and Power BI dashboard development. It provides a structured view of e-commerce sales performance and helps identify patterns in revenue, products, and customer ratings.
 
-### 2. Monthly Revenue Analysis
+## 👩‍💻 Author
+**Mangalasetty Varshitha Devi**
 
-![Monthly Revenue](analysis_outputs/monthly_revenue.png)
 
-**Insight:** May recorded the highest monthly revenue, while January recorded the lowest.
-
-### 3. Top 10 Best-Selling Products
-
-![Best Selling Products](analysis_outputs/best_selling_products.png)
-
-**Insight:** This visualization identifies the top-performing products based on quantity sold.
-
-### 4. Top 10 Customers by Spending
-
-![Top Customers](analysis_outputs/top_customers.png)
-
-**Insight:** Vikram was the highest-spending customer, contributing approximately 25K in revenue.
-
-### 5. Payment Method Distribution
-
-![Payment Method Distribution](analysis_outputs/payment_method.png)
-
-**Insight:** UPI was the most preferred payment method, accounting for 51.9% of transactions, followed by Credit Card at 25.9%.
-
----
-
-## Key Findings
-
-- Electronics contributed the highest category revenue.
-- May recorded the strongest monthly sales performance.
-- UPI was the dominant payment method.
-- High-value customers contributed significantly to overall revenue.
-- Product-level analysis helped identify the best-selling items.
-
-## Conclusion
-
-This project demonstrates practical experience in data cleaning, SQL querying, exploratory data analysis, and Python data visualization to understand e-commerce business performance and customer behavior.
