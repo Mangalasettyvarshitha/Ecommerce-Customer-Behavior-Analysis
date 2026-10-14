@@ -32,7 +32,7 @@ The interactive dashboard provides an overview of e-commerce sales performance t
 - Top 10 Best-Selling Products
 
 ### Dashboard Preview
-![E-Commerce Sales Dashboard](screenshots/ecommerce_dashboard.png)
+ecommerce_dashboard.png
 
 ## 🔍 Project Workflow
 1. Collected and explored the e-commerce dataset.
